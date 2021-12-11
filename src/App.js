@@ -34,6 +34,7 @@ function App() {
       </div>
       
       <Routes>
+      <Route path="/" element={<CustomerList customers={customers} setCustomers={setCustomers} setTrainings={setTrainings} />} />
       <Route path="/customers" element={<CustomerList customers={customers} setCustomers={setCustomers} setTrainings={setTrainings} />} />
       <Route path="/trainings" element={<TrainingList trainings={trainings} setTrainings={setTrainings} setCustomers={setCustomers} />} />
       <Route path="/calendar" element={<TrainingCalendar trainings={trainings} />} />
