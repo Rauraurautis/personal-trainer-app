@@ -243,6 +243,7 @@ body {
  .hidden {
   transition: opacity 1s;
   opacity: 0;
+  pointer-events:none;
 }
 
 .training-card .activity-header {
